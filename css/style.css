@@ -52,3 +52,32 @@ section{
     color: rgb(151, 252, 255);
 }
 
+.card-img-top {
+    max-width: 100%;
+    height: 215px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.coming-soon {
+    text-align: center;
+    display: flex; /* Wrap content in a flexbox for horizontal alignment */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally within the .coming-soon element */
+}
+
+.coming-soon h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.coming-soon button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
