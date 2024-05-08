@@ -3,14 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>SGC Portfolio</title>
+    
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
-<h1>Hello, World!</h1>
+    
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Simon Gordon Crampton</a>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resumé</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<p>This is a simple HTML page served by GitHub Pages.</p>
+    <section>
+        <div class="container-fluid" id="home">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center">
+                        <h1>About Me</h1> 
+                    </div>
+                    <br/>
+                    <p>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                       Pharetra vel turpis nunc eget lorem. Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Vestibulum lectus mauris 
+                       ultrices eros in cursus turpis massa tincidunt. Enim ut tellus elementum sagittis vitae et leo duis. Nulla posuere sollicitudin aliquam ultrices sagittis. 
+                       Nullam ac tortor vitae purus faucibus ornare. Nisl nisi scelerisque eu ultrices vitae auctor. Pharetra massa massa ultricies mi quis. 
+                       Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Elementum sagittis vitae et leo duis ut diam quam. Nulla pharetra diam sit amet nisl suscipit adipiscing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+
+<script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
