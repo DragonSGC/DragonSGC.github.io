@@ -11,9 +11,7 @@
     
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
-
-    
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Simon Gordon Crampton</a>
           <ul class="navbar-nav ms-auto">
@@ -33,8 +31,8 @@
         </div>
       </nav>
 
-    <section>
-        <div class="container-fluid" id="home">
+    <section id="home">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="d-flex justify-content-center">
@@ -53,15 +51,18 @@
         </div>
     </section>
 
-    <section>
-      <div class="container" id="projects">
-        <section>
-          <div class="container">
+    <section id="projects">
+      <div class="container">
             <div class="row">
+              <div class="d-flex justify-content-center">
+                <h1>Projects</h1> 
+              </div>
+              <br/>
+              <br/>
               <div class="col-md-6 mb-4">
                 <a href="coming_soon.html" class="no-underline">
                   <div class="card">
-                    <img src="img/img_1.jpg" class="card-img-top embed-responsive embed-responsive-4by3" alt="Placeholder Image">
+                    <img src="img/img_1.jpg" class="card-img-top img-fluid" alt="Placeholder Image">
                     <div class="card-body">
                       <h4 class="card-title text-center">Project Title 1</h4>
                       <p class="card-text">A brief description of Project 1. (Optional: Demo login details)</p>
@@ -72,7 +73,7 @@
               <div class="col-md-6 mb-4">
                 <a href="coming_soon.html" class="no-underline">
                   <div class="card">
-                    <img src="img/img_2.jpg" class="card-img-top embed-responsive embed-responsive-4by3" alt="Placeholder Image">
+                    <img src="img/img_2.jpg" class="card-img-top img-fluid" alt="Placeholder Image">
                     <div class="card-body">
                       <h4 class="card-title text-center">Project Title 2</h4>
                       <p class="card-text">A brief description of Project 2. (Optional: Demo login details)</p>
@@ -86,7 +87,7 @@
               <div class="col-md-6 mb-4">
                 <a href="coming_soon.html" class="no-underline">
                   <div class="card">
-                    <img src="img/img_3.jpg" class="card-img-top embed-responsive embed-responsive-4by3" alt="Placeholder Image">
+                    <img src="img/img_3.jpg" class="card-img-top img-fluid" alt="Placeholder Image">
                     <div class="card-body">
                       <h4 class="card-title text-center">Project Title 3</h4>
                       <p class="card-text">A brief description of Project 3. (Optional: Demo login details)</p>
@@ -97,7 +98,7 @@
               <div class="col-md-6 mb-4">
                 <a href="coming_soon.html" class="no-underline">
                   <div class="card">
-                    <img src="img/img_4.jpg" class="card-img-top embed-responsive embed-responsive-4by3" alt="Placeholder Image">
+                    <img src="img/img_4.jpg" class="card-img-top img-fluid" alt="Placeholder Image">
                     <div class="card-body">
                       <h4 class="card-title text-center">Project Title 4</h4>
                       <p class="card-text">A brief description of Project 4. (Optional: Demo login details)</p>
@@ -106,11 +107,29 @@
                 </a>
               </div>
             </div>
-          </div>
-        </section>
-        
       </div>
     </section>
+
+    <section id="resume">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="d-flex justify-content-center">
+                      <h1>Resumé</h1> 
+                  </div>
+                  <br/>
+              </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-8">
+              <h4>Up to date CV for Simon Crampton</h4>
+            </div>
+            <div class="col-sm-4">
+              <a href="data/Resume.pdf" class="btn btn-primary">Download Resume</a>
+            </div>
+          </div>
+      </div>
+  </section>
       
 
 <script src="js/bootstrap.bundle.min.js"></script>
