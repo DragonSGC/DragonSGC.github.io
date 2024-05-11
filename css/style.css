@@ -98,3 +98,8 @@ section{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.list-group-item{
+    background-color: #373a40;
+    color: rgb(216, 217, 255);
+}
